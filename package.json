@@ -1,0 +1,32 @@
+{
+  "name": "pwa-text-editor",
+  "version": "1.0.0",
+  "description": "a text editor app that follows progressive web applications techniques and persistence data storage in case is not supported by the browser. The application will work offline.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverLo78/pwa-text-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverLo78/pwa-text-editor/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "homepage": "https://github.com/oliverLo78/pwa-text-editor#readme"
+}

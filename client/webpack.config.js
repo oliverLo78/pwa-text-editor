@@ -51,7 +51,7 @@ module.exports = {
     new MiniCssExtractPlugin(),
    // TODO: Add InjectManifest Plugin
    new InjectManifest({
-    swSrc: './src/sw.js',
+    swSrc: './src-sw.js',
     swDest: 'service-worker.js'
    })
   ],
