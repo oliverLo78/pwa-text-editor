@@ -67,6 +67,11 @@ Text Editor deployed application [pacific-forest-88818.herokuapp.com](https://pa
 
 ## Screenshot
 
+![Screenshot_20221202_043158](https://user-images.githubusercontent.com/109435666/205393271-d84016ec-9f5f-42e5-955e-4dfc5209daf1.png)
+
+![Screenshot_20221202_043104](https://user-images.githubusercontent.com/109435666/205393495-0b0553cf-ab8e-42d2-be26-c30c5593727e.png)
+
+![Screenshot_20221202_042958](https://user-images.githubusercontent.com/109435666/205393588-67383e94-5ba8-4ba3-b31d-7e86b7e3f736.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
